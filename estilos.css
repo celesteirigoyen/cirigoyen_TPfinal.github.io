@@ -1,0 +1,219 @@
+/* PALETA DE COLORES
+#637373 (gris)
+#E7E7E4 (gris claro)
+#F5F5F5 (blanco humo)
+#F3D219 (amarillo)
+*/
+
+.redes {
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 70px 70px 70px 70px; 
+  gap: 5px;
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+
+.redes > div {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 25px; color:#F5F5F5;
+}
+ 
+.redes > a:link, a:visited {
+  background-color: #F5F5F5;
+  color: #F5F5F5;
+  border: 2px #F5F5F5;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.redes > a:hover, a:active {
+  background-color: #F5F5F5;
+  color: #637373;
+}
+
+
+.foto {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+.grid-item {
+  background-color:#F3D219;
+  padding: 5px;
+  font-size: 5px;
+  text-align: center;
+}
+
+.nombre {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: #F5F5F5;
+  padding: 0px;
+ 
+  }
+
+.nombre  {
+    display: flex;
+    justify-content: center;
+   }
+
+.nombre {
+  font-family: 'Pacifico', cursive;
+  color:#637373 ;
+}
+  
+ 
+  .button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #637373;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #F3D219}
+  
+  .button:active {
+    background-color: #F3D219;
+    box-shadow: 0 5px #F3D219;
+    transform: translateY(4px);
+  }
+  
+  .botones {
+   display: flex;
+   justify-content: center;
+  }
+
+
+  
+    a:link, a:visited {
+    background-color: #637373;
+    color: #F5F5F5;
+    border: 2px #E7E7E4;
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #F3D219;
+    color: #F5F5F5;
+  }
+
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color:#F3D219 ;
+  }
+
+.que_hago {
+  column-count: 2;
+  font-family: 'Roboto';
+} 
+
+
+
+body {
+    background-color: #F5F5F5;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
